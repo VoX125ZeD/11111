@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AmonicMobil.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="10*"/>
+                    <RowDefinition Height="160*"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="350*"/>
+                    
+                    <RowDefinition Height="10*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="10*"/>
+                    <ColumnDefinition Width="100*"/>
+                    <ColumnDefinition Width="10*"/>
+                </Grid.ColumnDefinitions>
+
+                <Image x:Name="img1" HorizontalOptions="FillAndExpand" Margin="0,0,0,0" Source="img1.png" Grid.Row="1" Grid.RowSpan="1" Grid.Column="1" Grid.ColumnSpan="1" VerticalOptions="FillAndExpand" />
+                 <Grid BackgroundColor="#A6196AA6" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Column="1" Grid.ColumnSpan="1" Grid.Row="3" Grid.RowSpan="1">
+                
+                 </Grid>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
